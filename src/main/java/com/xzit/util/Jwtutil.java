@@ -50,7 +50,7 @@ public class Jwtutil {
                 // 设置签名的秘钥
                 .setSigningKey(SECRET_KEY)
                 // 设置需要解析的jwt
-                .parseClaimsJws(token).getBody();
+                .parseClaimsJws(token).getBody();//你好
         return claims;
     }
 }
